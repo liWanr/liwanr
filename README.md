@@ -6,5 +6,5 @@
 
 **Let's Chat -**
 [**Email**](mailto:li.wanr@outlook.com) <small>|</small>
-[**My Website**](https://liWanr.com) <small>|</small>
-[**Telegram**](https://t.me/itsWanr)
+[**Telegram**](https://t.me/itsWanr) <small>|</small>
+[**My Website**](https://liWanr.com)
