@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi There 👋
 
 ![views](https://views.whatilearened.today/views/github/liWanr/liWanr.svg)
 
