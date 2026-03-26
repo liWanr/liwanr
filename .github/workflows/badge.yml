@@ -44,6 +44,12 @@ jobs:
           path: dist/language.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # 🔥 Streak
+      - name: Download streak
+        run: |
+          curl -L "https://streak-stats.demolab.com?user=liWanr&theme=transparent&hide_border=true&locale=zh_Hans&short_numbers=true" \
+          -o dist/streak.svg
+
       # 🚀 Push
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
