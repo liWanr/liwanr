@@ -26,7 +26,7 @@ jobs:
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      # 📊 Stats
+      # 📊 Stats - light
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -35,13 +35,31 @@ jobs:
           path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 📚 Top Langs
+      # 📊 Stats - dark
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=liWanr&show_icons=true&locale=cn?theme=merko
+          path: dist/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 📚 Top Language
       - name: Generate languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=liWanr&layout=compact&locale=cn
-          path: dist/top-langs.svg
+          path: dist/language.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 📚 Top Language
+      - name: Generate languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=liWanr&layout=compact&locale=cn?theme=merko
+          path: dist/language-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       # 🚀 Push
