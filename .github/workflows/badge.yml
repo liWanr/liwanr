@@ -40,7 +40,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=liWanr&show_icons=true&locale=cn?theme=dark
+          options: username=liWanr&show_icons=true&locale=cn&theme=dark
           path: dist/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -58,7 +58,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=liWanr&layout=compact&locale=cn?theme=dark
+          options: username=liWanr&layout=compact&locale=cn&theme=dark
           path: dist/language-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
