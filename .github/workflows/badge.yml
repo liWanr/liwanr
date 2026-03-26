@@ -40,11 +40,11 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=liWanr&show_icons=true&locale=cn?theme=merko
+          options: username=liWanr&show_icons=true&locale=cn?theme=dark
           path: dist/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 📚 Top Language
+      # 📚 Language - light
       - name: Generate languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
@@ -53,12 +53,12 @@ jobs:
           path: dist/language.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 📚 Top Language
+      # 📚 Language - dark
       - name: Generate languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=liWanr&layout=compact&locale=cn?theme=merko
+          options: username=liWanr&layout=compact&locale=cn?theme=dark
           path: dist/language-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
